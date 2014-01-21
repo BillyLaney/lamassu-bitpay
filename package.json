@@ -1,0 +1,26 @@
+{
+  "name": "lamassu-bitpay",
+  "version": "0.0.1",
+  "description": "Lamassu Trade and Ticker for Bitpay",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gangleri/lamassu-bitpay.git"
+  },
+  "keywords": [
+    "Lamassu",
+    "Bitpay",
+    "Bitcoin"
+  ],
+  "author": "Alan Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gangleri/lamassu-bitpay/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}
