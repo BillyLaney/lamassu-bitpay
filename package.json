@@ -4,7 +4,7 @@
   "description": "Lamassu Trade and Ticker for Bitpay",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap ./test"
   },
   "repository": {
     "type": "git",
@@ -15,12 +15,19 @@
     "Bitpay",
     "Bitcoin"
   ],
-  "author": "Alan Bradley",
+  "author": "Peter Elger (http://nearform.com/)",
+  "contributors": [
+    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)",
+    "Alan Braddley <alan@gangleri.net>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gangleri/lamassu-bitpay/issues"
   },
   "dependencies": {
     "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
   }
 }
