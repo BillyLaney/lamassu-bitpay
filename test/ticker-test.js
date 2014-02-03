@@ -20,12 +20,10 @@ var ticker = require('../lib/index').ticker;
 test('Read ticker from Bitpay', function(t){
   var bitpay = new ticker();
   bitpay.ticker('USD', function(err, result) {
-    t.plan(5);
+    t.plan(3);
     t.equal(err, null, 'There should be no error');
     t.notEqual(result, null, 'There should be a result');
-    t.equal(result.error, undefined, 'The result should contain no error');
-    t.notEqual(result.rate, undefined, 'A rate should have been returned');
-    t.ok(parseFloat(result.rate, 10), 'The rate should be a float');
+    t.type(result, 'number');
     t.end();
   });
 });
