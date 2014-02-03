@@ -25,7 +25,8 @@
     "url": "https://github.com/gangleri/lamassu-bitpay/issues"
   },
   "dependencies": {
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "parse-json-response": "~1.0.1"
   },
   "devDependencies": {
     "tap": "~0.4.8"
