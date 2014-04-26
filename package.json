@@ -1,6 +1,6 @@
 {
   "name": "lamassu-bitpay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lamassu Trade and Ticker for Bitpay",
   "main": "lib/index.js",
   "scripts": {
@@ -8,21 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gangleri/lamassu-bitpay.git"
+    "url": "https://github.com/lamassu/lamassu-bitpay.git"
   },
   "keywords": [
     "Lamassu",
     "Bitpay",
     "Bitcoin"
   ],
-  "author": "Peter Elger (http://nearform.com/)",
-  "contributors": [
-    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)",
-    "Alan Braddley <alan@gangleri.net>"
-  ],
-  "license": "MIT",
+  "author": "Lamassu (https://lamassu.is)",
+  "license": "unlicense",
   "bugs": {
-    "url": "https://github.com/gangleri/lamassu-bitpay/issues"
+    "url": "https://github.com/lamassu/lamassu-bitpay/issues"
   },
   "dependencies": {
     "underscore": "~1.5.2"
