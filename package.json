@@ -1,6 +1,6 @@
 {
   "name": "lamassu-bitpay",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Lamassu Trade and Ticker for Bitpay",
   "main": "lib/index.js",
   "scripts": {
@@ -20,8 +20,7 @@
   "bugs": {
     "url": "https://github.com/lamassu/lamassu-bitpay/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "~0.4.8"
   }
