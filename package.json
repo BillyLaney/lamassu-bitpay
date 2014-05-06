@@ -1,6 +1,6 @@
 {
   "name": "lamassu-bitpay",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "BitPay ticker for lamassu-server",
   "main": "lib/index.js",
   "scripts": {
