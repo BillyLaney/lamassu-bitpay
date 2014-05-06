@@ -1,4 +1,4 @@
 lamassu-bitpay
 ==============
 
-Bitpay module containing ticker and trader functionality 
+lamassu-server module containing ticker functionality from BitPay's exchange rate API. 
